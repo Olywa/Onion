@@ -1,7 +1,7 @@
 ---
 name: Bug Reports Only (Feature requests should be raised in the 'Discussions' tab
   above)
-about: Create a report to help us improve
+about: Report a defect to help us improve Onion
 title: ''
 labels: ''
 assignees: ''
