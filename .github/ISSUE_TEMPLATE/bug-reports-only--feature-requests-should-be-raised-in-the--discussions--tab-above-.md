@@ -10,11 +10,11 @@ assignees: ''
 
 **Describe the bug**
 
-Write here a clear and concise description of what the bug is
+Replace this line with a clear and concise description of what the bug is
 
 **To Reproduce**
 
-Provide here the steps to reproduce the behaviour:
+Replace this line with the steps to reproduce the behaviour:
 
 **Software (please complete the following information):**
 
