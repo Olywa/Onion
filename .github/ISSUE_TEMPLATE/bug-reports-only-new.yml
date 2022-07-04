@@ -7,11 +7,16 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+ - type: checkboxes
+    id: checklist
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+      label: Checklist
+      description: Carefully read and work through this check list in order to prevent misuse of issues
+      options:
+        - label: I am reporting a bug in the Onion OS
+          required: true
+        - label: I have reviewed the Onion Wiki and did not find the answer ([Wiki](https://github.com/Sichroteph/Onion/wiki))
+          required: true
+        - label: I have searched the existing (open and closed) issues to ensure I do not log a duplicate
+          required: true
+
