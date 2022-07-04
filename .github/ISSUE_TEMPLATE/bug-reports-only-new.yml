@@ -26,7 +26,7 @@ body:
     attributes:
       label: Onions OS Version
       description: Provide the verion of Onion which you are using
-      placeholder: This will be visible when you boot Onion and is also written in \.tmp_update\onionVersion\version.txt
+      placeholder: Visible on the Onion boot screen
     validations:
       required: true
   - type: input
@@ -34,10 +34,28 @@ body:
     attributes:
       label: Miyoo Firmware Version
       description: Provide the verion of Onion which you are using
-      placeholder: This can be obtained by going to Settings->Device Info->Version
+      placeholder: Go to Settings->Device Info->Version
     validations:
       required: true
 
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a clear and concise description the issue
+      description: Also tell us, what did you expect to happen?
+      placeholder: 
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps to reproduce the issue
+      placeholder: 
+      value: "A bug happened!"
+    validations:
+      required: true
 
 
 
