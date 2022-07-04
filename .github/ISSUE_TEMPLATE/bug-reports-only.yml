@@ -19,7 +19,7 @@ body:
     id: description
     attributes:
       label: Provide a a clear and concise description the issue
-      description: **Describe the bug**
+      description: Describe the bug
       placeholder: Provide any additional information, any suggested solutions, and as much context and examples as possible
     validations:
       required: true
@@ -27,14 +27,14 @@ body:
     id: steps
     attributes:
       label: Provide the exact steps to reproduce the issue
-      description: **Steps To Reproduce**
+      description: Steps To Reproduce
       placeholder: 
     validations:
       required: true
    - type: textarea
     id: OSVersion
     attributes:
-      label: **Onion OS Version**
+      label: Onion OS Version
       description: Provide the verion of Onion which you are using
       placeholder: This will be visible when you boot Onion or is also in \.tmp_update\onionVersion\version.txt.
     validations:
@@ -42,7 +42,7 @@ body:
     - type: textarea
     id: FWVersion
     attributes:
-      label: **Miyoo Firmware Version**
+      label: Miyoo Firmware Version
       description: Provide the verion of Onion which you are using
       placeholder: This can be obtained by going to Settings->Device Info->Version
     validations:
@@ -51,7 +51,7 @@ body:
     id: context
     attributes:
       label: Add any other context about the problem here
-      description: **Additional context**
+      description: Additional context
       placeholder: Don't forget to attach screenshots or attachments if applicable.
     validations:
       required: true
