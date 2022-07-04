@@ -2,7 +2,7 @@ name: Bug Reports Only -Feature requests and questions should be raised in the '
 description: Report a defect to help us improve Onion
 labels: [bug]
 body:
-  - type: checkboxes
+ - type: checkboxes
     id: checklist
     attributes:
       label: Checklist
