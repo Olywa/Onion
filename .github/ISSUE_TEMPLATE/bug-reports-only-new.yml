@@ -1,4 +1,4 @@
-name: "Bug Reports Only (Feature requests and questions should be raised in the 'Discussions' tab above)"
+name: "Bug Reports Only (Feature requests and questions should be submitted in the 'Discussions' tab above)"
 description: File an Onion bug report
 title: "[Bug]: "
 labels: ["bug"]
@@ -13,7 +13,7 @@ body:
     id: checklist
     attributes:
       label: Checklist
-      description: Carefully read and work through this check list in order to prevent misuse of issues
+      description: Please confirm the following in order to prevent misuse of issues
       options:
         - label: I am reporting a bug in the Onion OS
           required: true
@@ -37,14 +37,12 @@ body:
       placeholder: Go to Settings->Device Info->Version
     validations:
       required: true
-
   - type: textarea
     id: description
     attributes:
       label: Provide a clear and concise description the issue
       description: Also tell us, what did you expect to happen?
       placeholder: 
-      value: "A bug happened!"
     validations:
       required: true
   - type: textarea
