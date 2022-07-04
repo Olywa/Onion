@@ -7,7 +7,7 @@ body:
     attributes:
       label: Checklist
       description: |
-        Carefully read and work through this check list in order to prevent misuse of issues:
+        Carefully read and confirm this check list in order to prevent misuse of issues:
       options:
         - label: I am reporting a bug in the Onion OS
           required: true
