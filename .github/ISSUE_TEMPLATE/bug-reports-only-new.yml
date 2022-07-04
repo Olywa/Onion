@@ -2,7 +2,7 @@ name: "Bug Reports Only (Feature requests and questions should be raised in the 
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
-assignees:
+
 body:
   - type: markdown
     attributes:
