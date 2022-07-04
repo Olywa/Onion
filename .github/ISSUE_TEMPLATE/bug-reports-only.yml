@@ -15,7 +15,6 @@ body:
           required: true
         - label: I have searched the existing issues to ensure I do not log a duplicate
           required: true
-
   - type: textarea
     id: description
     attributes:
