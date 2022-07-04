@@ -2,19 +2,19 @@ name: Bug Reports Only -Feature requests and questions should be raised in the '
 description: Report a defect to help us improve Onion
 labels: [bug]
 body:
- - type: checkboxes
-   id: checklist
-   attributes:
-     label: Checklist
-     description: |
-       Carefully read and confirm this check list in order to prevent misuse of issues:
-     options:
-       - label: I am reporting a bug in the Onion OS
-         required: true
-       - label: I have reviewed the Onion Wiki and did not find the answer ([Wiki](https://github.com/Sichroteph/Onion/wiki))
-         required: true
-       - label: I have searched the existing issues to ensure I do not log a duplicate
-         required: true
+- type: checkboxes
+id: checklist
+attributes:
+label: Checklist
+description: |
+Carefully read and confirm this check list in order to prevent misuse of issues:
+options:
+- label: I am reporting a bug in the Onion OS
+required: true
+- label: I have reviewed the Onion Wiki and did not find the answer ([Wiki](https://github.com/Sichroteph/Onion/wiki))
+required: true
+- label: I have searched the existing issues to ensure I do not log a duplicate
+required: true
  - type: textarea
    id: description
    attributes:
