@@ -29,7 +29,7 @@ body:
       placeholder: This will be visible when you boot Onion and is also written in \.tmp_update\onionVersion\version.txt
     validations:
       required: true
-   - type: input
+  - type: input
     id: fw
     attributes:
       label: Miyoo Firmware Version
