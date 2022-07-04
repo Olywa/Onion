@@ -1,9 +1,8 @@
 name: "Bug Reports Only (Feature requests and questions should be raised in the 'Discussions' tab above)"
 description: File a bug report
-title:
+title: "[Bug]: "
 labels: ["bug"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
