@@ -1,0 +1,64 @@
+name: "Bug Reports Only (Feature requests and questions should be raised in the 'Discussions' tab above)"
+description: Report a defect to help us improve Onion
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+ - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Carefully read and work through this check list in order to prevent misuse of issues
+      options:
+        - label: I am reporting a bug in the Onion OS
+          required: true
+        - label: I have reviewed the Onion Wiki and did not find the answer ([Wiki](https://github.com/Sichroteph/Onion/wiki))
+          required: true
+        - label: I have searched the existing (open and closed) issues to ensure I do not log a duplicate
+          required: true
+  - type: input
+    id: os
+    attributes:
+      label: Onions OS Version
+      description: Provide the verion of Onion which you are using
+      placeholder: This will be visible when you boot Onion and is also written in \.tmp_update\onionVersion\version.txt
+    validations:
+      required: true
+   - type: input
+    id: fw
+    attributes:
+      label: Miyoo Firmware Version
+      description: Provide the verion of Onion which you are using
+      placeholder: This can be obtained by going to Settings->Device Info->Version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a clear and concise description the issue
+      description: Also tell us, what did you expect to happen?
+      placeholder: 
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps to reproduce the issue
+      placeholder: 
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: Context
+    attributes:
+      label: Provide any additional information that may help us investigate the issue
+      description: Attach any pictures or files if applicable  
+      placeholder: 
+      value: "A bug happened!"
+    validations:
+      required: true
