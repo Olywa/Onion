@@ -1,57 +1,62 @@
-name: Bug Reports Only - Feature requests and questions should be raised in the 'Discussions' tab above
-description: Report a defect to help us improve Onion
-labels: [bug]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
 body:
-- type: checkboxes
-id: checklist
-attributes:
-label: Checklist
-description: |
-Carefully read and confirm this check list in order to prevent misuse of issues:
-options:
-- label: I am reporting a bug in the Onion OS
-required: true
-- label: I have reviewed the Onion Wiki and did not find the answer ([Wiki](https://github.com/Sichroteph/Onion/wiki))
-required: true
-- label: I have searched the existing issues to ensure I do not log a duplicate
-required: true
- - type: textarea
-   id: description
-   attributes:
-     label: Provide a a clear and concise description the issue
-     description: Describe the bug
-     placeholder: Provide any additional information, any suggested solutions, and as much context and examples as possible
-   validations:
-     required: true
- - type: textarea
-   id: steps
-   attributes:
-     label: Provide the exact steps to reproduce the issue
-     description: Steps To Reproduce
-     placeholder: 
-   validations:
-     required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
   - type: textarea
-   id: OSVersion
-   attributes:
-     label: Onion OS Version
-     description: Provide the verion of Onion which you are using
-     placeholder: This will be visible when you boot Onion or is also in \.tmp_update\onionVersion\version.txt.
-   validations:
-     required: true
-   - type: textarea
-   id: FWVersion
-   attributes:
-     label: Miyoo Firmware Version
-     description: Provide the verion of Onion which you are using
-     placeholder: This can be obtained by going to Settings->Device Info->Version
-   validations:
-     required: true
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
   - type: textarea
-   id: context
-   attributes:
-     label: Add any other context about the problem here
-     description: Additional context
-     placeholder: Don't forget to attach screenshots or attachments if applicable.
-   validations:
-     required: true
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
