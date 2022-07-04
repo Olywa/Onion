@@ -51,7 +51,7 @@ body:
       label: Steps to Reproduce
       description: Provide the steps to reproduce the issue
       placeholder: 
-      value: "A bug happened!"
+      value: "Please provide details that will help us replicate and investigate the issue"
     validations:
       required: true
   - type: textarea
