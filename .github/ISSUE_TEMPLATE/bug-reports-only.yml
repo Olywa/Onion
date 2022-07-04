@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: "Bug Reports Only (Feature requests and questions should be raised in the 'Discussions' tab above)"
+description: Report a defect to help us improve Onion
 title: "[Bug]: "
 labels: ["bug"]
 body:
@@ -11,7 +11,7 @@ body:
     id: checklist
     attributes:
       label: Checklist
-      description: Carefully read and work through this check list in order to prevent misuse of issues:
+      description: Carefully read and work through this check list in order to prevent misuse of issues
       options:
         - label: I am reporting a bug in the Onion OS
           required: true
