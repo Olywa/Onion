@@ -8,58 +8,19 @@ assignees: ''
 
 ---
 
-body:
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: Checklist
-      description: |
-        Carefully read and work through this check list in order to prevent misuse of issues:
-      options:
-        - label: I am reporting a bug in the Onion OS
-          required: true
-        - label: I have reviewed the Onion Wiki and did not find the answer ([Wiki](https://github.com/Sichroteph/Onion/wiki))
-          required: true
-        - label: I have searched the existing issues to ensure I do not log a duplicate
-          required: true
+**Describe the bug**
 
-  - type: textarea
-    id: description
-    attributes:
-      label: Provide a a clear and concise description the issue
-      description: **Describe the bug**
-      placeholder: Provide any additional information, any suggested solutions, and as much context and examples as possible
-    validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Provide the exact steps to reproduce the issue
-      description: **Steps To Reproduce**
-      placeholder: 
-    validations:
-      required: true
-   - type: textarea
-    id: OSVersion
-    attributes:
-      label: **Onion OS Version**
-      description: Provide the verion of Onion which you are using
-      placeholder: This will be visible when you boot Onion or is also in \.tmp_update\onionVersion\version.txt.
-    validations:
-      required: true
-    - type: textarea
-    id: FWVersion
-    attributes:
-      label: **Miyoo Firmware Version**
-      description: Provide the verion of Onion which you are using
-      placeholder: This can be obtained by going to Settings->Device Info->Version
-    validations:
-      required: true
-   - type: textarea
-    id: context
-    attributes:
-      label: Add any other context about the problem here
-      description: **Additional context**
-      placeholder: Don't forget to attach screenshots or attachments if applicable.
-    validations:
-      required: true
+Replace this line with a clear and concise description of what the bug is
+
+**To Reproduce**
+
+Replace this line with the steps to reproduce the behaviour:
+
+**Software (please complete the following information):**
+
+ - Onion OS version: [e.g. 3.11.2]
+ - Miyoo Firmware version: [e.g. 0419]
+
+**Additional context**
+
+Add any other context about the problem here (add screenshots or attachments if required).
