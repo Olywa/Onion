@@ -42,22 +42,22 @@ body:
     attributes:
       label: Provide a clear and concise description of the issue
       description:
-      placeholder: Tell use what happened and also what you expected to happen
+      placeholder: Tell us what happened and also what you expected to happen instead
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: Provide the steps to reproduce the issue
+      description:
       placeholder: 
-      value: "Please provide details that will help us replicate and investigate the issue"
+      value: "Please provide detailed steps that will help us replicate and investigate your issue"
     validations:
       required: true
   - type: textarea
     id: Context
     attributes:
-      label: Provide any additional information that may help us investigate the issue for you
+      label: Provide any additional context or information that may help us investigate your issue
       description: You may attach any pictures or files if applicable  
       placeholder: 
     validations:
