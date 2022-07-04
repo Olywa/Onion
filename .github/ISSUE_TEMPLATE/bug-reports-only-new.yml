@@ -57,16 +57,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: Context
-    attributes:
-      label: Provide any additional information that may help us investigate the issue
-      description: Attach any pictures or files if applicable  
-      placeholder: 
-      value: "A bug happened!"
-    validations:
-      required: true
-
 - type: textarea
     id: what-happened
     attributes:
