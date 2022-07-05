@@ -33,7 +33,7 @@ body:
     id: fw
     attributes:
       label: Miyoo Firmware Version
-      description: Provide the version of Onion which you are using
+      description: Provide the version of Miyoo Firmware which you are using
       placeholder: Go to Settings->Device Info->Version
     validations:
       required: true
