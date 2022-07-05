@@ -1,6 +1,6 @@
-name: "Bug Reports Only (Feature requests and questions should be submitted in the 'Discussions' tab above)"
+name: "Bug Reports Only (Feature Requests and Questions should be submitted in the 'Discussions' tab above)"
 description: File an Onion bug report
-title: "[Bug]: "
+title: "Issue Title"
 labels: ["bug"]
 
 body:
@@ -25,7 +25,7 @@ body:
     id: os
     attributes:
       label: Onions OS Version
-      description: Provide the verion of Onion which you are using
+      description: Provide the version of Onion which you are using
       placeholder: Visible on the Onion boot screen
     validations:
       required: true
@@ -33,7 +33,7 @@ body:
     id: fw
     attributes:
       label: Miyoo Firmware Version
-      description: Provide the verion of Onion which you are using
+      description: Provide the version of Onion which you are using
       placeholder: Go to Settings->Device Info->Version
     validations:
       required: true
